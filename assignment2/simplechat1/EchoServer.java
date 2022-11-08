@@ -22,8 +22,7 @@ public class EchoServer extends AbstractServer
   /**
    * The default port to listen on.
    */
-  final public static int DEFAULT_PORT = 7125; // *** Changed for E49 KL
-  //default port number is 7 + last 3 digits of student number
+  final public static int DEFAULT_PORT = 5555;
 
   //Constructors ****************************************************
 
@@ -106,7 +105,7 @@ public class EchoServer extends AbstractServer
     }
     catch(Throwable t)
     {
-      port = DEFAULT_PORT; //Set port to 7125
+      port = DEFAULT_PORT;
     }
 
     EchoServer sv = new EchoServer(port);

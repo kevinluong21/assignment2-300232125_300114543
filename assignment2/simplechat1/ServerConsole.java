@@ -92,7 +92,7 @@ public class ServerConsole implements ChatIF {
     try {
       port = Integer.parseInt(args[0]); // **** Changed for E50 KL
     } catch (ArrayIndexOutOfBoundsException e) {
-      port = 7125; //default port number (7 + last 3 digits of student number)
+      port = 5555; //default port number
     }
     ServerConsole console = new ServerConsole(port);
     console.accept(); // Wait for console data

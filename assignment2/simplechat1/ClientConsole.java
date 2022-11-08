@@ -25,7 +25,7 @@ public class ClientConsole implements ChatIF
   /**
    * The default port to connect on.
    */
-  final public static int DEFAULT_PORT = 7125; // **** Changed for E49 KL (7 + last 3 digits of student number)
+  final public static int DEFAULT_PORT = 5555;
   
   //Instance variables **********************************************
   
@@ -179,7 +179,7 @@ public class ClientConsole implements ChatIF
   public static void main(String[] args) 
   {
     String host = "";
-    int port = DEFAULT_PORT;  //The port number // **** Changed for E50 KL
+    int port = DEFAULT_PORT;  //The port number
 
     try
     {
